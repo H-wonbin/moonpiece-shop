@@ -18,14 +18,18 @@ body {
     line-height: 24px;
     color: black;
     position: relative;
-    min-width: 1500px;
+    min-width: 1650px;
 }
 
-#top {
+header{
     position: absolute;
     z-index: 98;
     top: 0;
-    left: 291px;
+    left: 0;
+    width: 100%;
+}
+
+#top {
     width: 1320px;
     margin: auto;
     display: -webkit-box;
@@ -182,6 +186,7 @@ h2 {
     background: url(../image/bg2.png) no-repeat;
     width: 100%;
     background-size: cover;
+    overflow: hidden;
 }
 
 .con2_in {
@@ -301,6 +306,7 @@ h2 {
     background: url(../image/bg3.png) no-repeat center top;
     background-size: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .con3_in {
@@ -402,6 +408,7 @@ h2 {
     font-weight: lighter;
     font-size: 30px;
     background-size: cover;
+    overflow: hidden;
 }
 
 .con4 h2 {
