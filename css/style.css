@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Cafe24ClassicType';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Classictype/Cafe24ClassicType.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Classictype/Cafe24ClassicType.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Classictype/Cafe24ClassicType.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Classictype/Cafe24ClassicType.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/Cafe24Classictype/Cafe24ClassicType.ttf') format("truetype");
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -109,7 +121,7 @@ header{
 }
 
 .con1 h1 {
-    font-family: 'Cafe24 ClassicType';
+    font-family: 'Cafe24ClassicType';
     font-weight: normal;
     text-align: center;
     padding: 200px 0 9px;
@@ -140,7 +152,7 @@ header{
 }
 
 h3 {
-    font-family: 'Cafe24 ClassicType';
+    font-family: 'Cafe24ClassicType';
     font-weight: normal;
     font-size: 30px;
     margin-bottom: 25px;
@@ -255,7 +267,7 @@ h2 {
 }
 
 .con2 h1 {
-    font-family: 'Cafe24 ClassicType';
+    font-family: 'Cafe24ClassicType';
     font-weight: normal;
     padding: 250px 0 9px 20px;
     margin-bottom: 60px;
@@ -316,7 +328,7 @@ h2 {
 }
 
 .con3 h1 {
-    font-family: 'Cafe24 ClassicType';
+    font-family: 'Cafe24ClassicType';
     font-weight: normal;
     padding: 100px 0 9px 20px;
     margin-bottom: 100px;
@@ -435,7 +447,7 @@ h2 {
 }
 
 .con5 h1 {
-    font-family: 'Cafe24 ClassicType';
+    font-family: 'Cafe24ClassicType';
     font-weight: normal;
     padding: 100px 0 9px 20px;
     padding-top: 250px;
